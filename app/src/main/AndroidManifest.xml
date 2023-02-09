@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hms">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.DetailedTestReport"></activity>
+        <activity android:name=".Staff.MyDuties" />
+        <activity android:name=".Staff.ViewSalary" />
+        <activity android:name=".ReceptionStaff.ViewSalary" />
+        <activity android:name=".ReceptionStaff.CreatePatientID" />
+        <activity android:name=".ReceptionStaff.CalculateBill" />
+        <activity android:name=".ReceptionStaff.EmergencyCase" />
+        <activity android:name=".LabIncharge.UploadTests" />
+        <activity android:name=".LabIncharge.UpcomingTests" />
+        <activity android:name=".HeadStaff.AssignRooms" />
+        <activity android:name=".HeadStaff.GenerateSalary" />
+        <activity android:name=".User.Treatment" />
+        <activity android:name=".User.TestReports" />
+        <activity android:name=".User.Appointments" />
+        <activity android:name=".Doctor.AssignedRooms" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Doctor.AssignLabTest" />
+        <activity android:name=".Doctor.GeneratePrescription" />
+        <activity android:name=".User.UserActivity" />
+        <activity android:name=".Staff.StaffActivity" />
+        <activity android:name=".ReceptionStaff.ReceptionStaffActivity" />
+        <activity android:name=".LabIncharge.LabInchargeActivity" />
+        <activity android:name=".HeadStaff.HeadStaffActivity" />
+        <activity android:name=".Doctor.DoctorActivity" />
+        <activity android:name=".Admin.AdminActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:fontFamily="@font/nunito_sans"
+                android:id="@+id/MedicineName"
+                android:text="Treatment ID"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#222"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:fontFamily="@font/nunito_sans"
+                android:id="@+id/medicineQuantity"
+                android:text="Patient Name"
+                />
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#222"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textColor="#000"
+                android:fontFamily="@font/nunito_sans"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/medicineDosage"
+                android:text="Patient ID"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

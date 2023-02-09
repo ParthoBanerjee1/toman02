@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HMS</string>
+    <string name="take_appointments">Take Appointments</string>
+    <string name="view_treatment">View Treatment</string>
+    <string name="transaction_id">Transaction Id:</string>
+    <string name="doctor_s_name">Doctor\'s Name:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="designation">Designation:</string>
+    <string name="month">Month:</string>
+    <string name="submit">submit</string>
+    <string name="salary">Salary:</string>
+    <string name="id">ID:</string>
+    <string name="room_number">Room Number:</string>
+    <string name="patient_id">Patient ID:</string>
+    <string name="doctor_s_assigned">Doctor\'s Assigned:</string>
+    <string name="prescription">Prescription</string>
+    <string name="treatment_id">Treatment ID:</string>
+    <string name="treatment">Treatment</string>
+    <string name="lab_tests">Lab Tests</string>
+    <string name="tests">Tests</string>
+</resources>
